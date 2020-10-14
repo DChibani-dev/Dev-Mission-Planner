@@ -68,11 +68,9 @@
   <ItemGroup>
     <Compile Include="..\ExtLibs\Arduino\ArduinoSTK.cs">
       <Link>Linked\ArduinoSTK.cs</Link>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="..\ExtLibs\Arduino\ArduinoSTKv2.cs">
       <Link>Linked\ArduinoSTKv2.cs</Link>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="..\ExtLibs\Arduino\IArduinoComms.cs">
       <Link>Linked\IArduinoComms.cs</Link>
@@ -82,7 +80,6 @@
     </Compile>
     <Compile Include="..\ExtLibs\Comms\CommsSerialPort.cs">
       <Link>Linked\CommsSerialPort.cs</Link>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="..\ExtLibs\Comms\CommsTCPSerial.cs">
       <Link>Linked\CommsTCPSerial.cs</Link>
@@ -128,9 +125,7 @@
       <DependentUpon>Config.cs</DependentUpon>
     </Compile>
     <Compile Include="ISikRadioForm.cs" />
-    <Compile Include="MAVLinkSerialPort.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="MAVLinkSerialPort.cs" />
     <Compile Include="MainV2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
